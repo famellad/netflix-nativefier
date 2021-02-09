@@ -1,0 +1,54 @@
+/* Type your CSS code here. */
+
+.our-story-header-wrapper {
+    margin: 0;
+    height: 41px !important;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.main-header {
+    height: 41px !important;
+}
+
+.pinning-header-container {
+    -webkit-app-region: drag;
+    background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.account-menu-item, .account-dropdown-button, .account-dropdown-button > a:nth-child(1), .profile-link img {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.logo, .navigation-menu, .navigation-tab, .nav-element, #close-button {
+    -webkit-app-region: no-drag;
+}
+
+.secondary-navigation {
+    margin-right: 16px !important;
+}
+
+#close-button {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 99;
+}
+
+#buttons-container {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 41px;
+    height: 41px;
+    z-index: 99;
+}
+
+.sizing-wrapper {
+    z-index: 100 !important;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+  display: none;
+ }
