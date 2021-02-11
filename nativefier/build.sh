@@ -1,10 +1,14 @@
 #!/bin/bash
 
+URL=https://www.netflix.com
+APPNAME="netflix"
+PARAMS="--hide-window-frame --disable-context-menu --inject netflix.css --inject netflix.js --widevine"
+
 # Windows, the browser is unsupported
-#nativefier netflix.com --name netflix --hide-window-frame --disable-context-menu --inject netflix.css --inject netflix.js --full-screen --widevine --platform windows
+#nativefier $URL --name $APPNAME $PARAMS --platform windows
 
 # MacOS, not tested
-#nativefier netflix.com --name netflix --hide-window-frame --disable-context-menu --inject netflix.css --inject netflix.js --full-screen --widevine --platform osx
+#nativefier $URL --name $APPNAME $PARAMS --platform osx
 
 # Linux
-nativefier netflix.com --name netflix --hide-window-frame --disable-context-menu --inject netflix.css --inject netflix.js --full-screen --widevine --platform linux
+nativefier $URL --name $APPNAME $PARAMS --platform linux
