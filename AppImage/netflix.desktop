@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Netflix
+Exec=AppRun
+Terminal=false
+Type=Application
+Icon=netflix
+StartupWMClass=Netflix
+Comment=Netflix desktop app, DRM enabled.
+Categories=AudioVideo;
